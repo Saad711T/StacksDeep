@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StacksDeep</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logoo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <nav>
+        <a href=""><span class="material-symbols-outlined">apps</span></a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="container">
+        <img src="img/logo.png" width="350px" alt="STN Deep Logo"
+            class="logo">
+            
+        <div class="searchbox">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" class="input" onkeydown="if(event.keyCode==13){performSearch();return false;}">
+        </div>
+
+        <div class="btn">
+            <a href="#" class="search-button" onclick="performSearch()">Lets search</a>
+            <a href="#" class="lucky">I'm Feeling Lucky</a>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
